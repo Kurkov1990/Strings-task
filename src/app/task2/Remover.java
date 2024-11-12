@@ -8,8 +8,8 @@ public class Remover {
         for (String str : strs) {
             if (!str.equals("onion")) {
                 count++;
-                stringBuilder.append("(").append(count).append(")")
-                        .append(str).append(" ");
+                stringBuilder.append("").append(count).append(") ")
+                        .append(str).append("\n");
             }
         }
         return stringBuilder.toString();
